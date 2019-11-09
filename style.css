@@ -11,4 +11,6 @@ h1 {
 .lista {
   color: #0000EE;
 }
-.lista:hover 
+.lista:hover {
+  color: purple;
+}

@@ -1,0 +1,14 @@
+.contenitore{
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+}
+#Didattica{
+  float: left;
+}
+#Fisica{
+  float:right;
+}
+#maggiore{
+  float
+}
