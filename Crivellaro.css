@@ -1,6 +1,7 @@
 .contenitore{
+  position:Absolute;
   display: table;
-  width:19%;
+  width:21%;
   margin: 0 auto;
 }
 #Didattica{
@@ -21,7 +22,7 @@
 #maggiore2{
   display: table-cell;
 }
-#Rizzotto{
+#Crivellaro{
   display: table-cell;
 }
 #marchio{

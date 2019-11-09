@@ -14,3 +14,10 @@ h1 {
 .lista:hover {
   color: purple;
 }
+#marchio{
+  position:absolute;
+  color:grey;
+  font-size: 9px;
+  left: 50%;
+  bottom:1px;
+}
