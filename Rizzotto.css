@@ -1,0 +1,26 @@
+.contenitore{
+  display: table;
+  width:19%;
+  margin: 0 auto;
+}
+#Didattica{
+  display: table-cell;
+}
+#Fisica{
+  display: table-cell;
+}
+#maggiore{
+  display: table-cell;
+}
+.lista {
+  color: #0000EE;
+}
+.lista:hover {
+  color: purple;
+}
+#maggiore2{
+  display: table-cell;
+}
+#Rizzotto{
+  display: table-cell;
+}
