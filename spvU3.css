@@ -1,0 +1,49 @@
+.contenitore{
+  display: table;
+  width:27%;
+  margin: 0 auto;
+}
+#Didattica{
+  display: table-cell;
+}
+#Fisica{
+  display: table-cell;
+}
+.maggiore{
+  display: table-cell;
+}
+.lista {
+  color: #0000EE;
+}
+.lista:hover {
+  color: purple;
+}
+#Rizzotto{
+  display: table-cell;
+}
+#Elearning{
+  display: table-cell;
+}
+#marchio{
+  position:absolute;
+  color:grey;
+  font-size: 9px;
+  left: 50%;
+  bottom:1px;
+}
+body {
+  background-image: url("https://cdn.glitch.com/f46cfb06-f906-478d-8672-94bd9a93cac9%2F50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg?v=1573300422786");
+}
+#U3{
+   color: white;
+   text-transform: uppercase;
+   position:relative;
+  left:5%;
+}
+#sU3{
+  display: table-cell;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #00fc43;
+}
