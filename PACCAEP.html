@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aree e perimetri</title>
+    <link rel="stylesheet" href="PACCAEP.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    <script>
+    function finestra(){
+      alert("Pagina sperimentale");
+    }
+    </script>
+    <link rel="Shortcut Icon" href="https://cdn.glitch.com/f46cfb06-f906-478d-8672-94bd9a93cac9%2Fkisspng-book-clip-art-open-book-5abd5bed86bf49.6836457215223592775519.png?v=1575113189398">
+  </head>
+  <body onload="finestra()">
+    <button class="bottone" onclick="Ar()">
+      Area e perimetro rettangolo
+    </button><br>
+    <div style="display:none;" id="Ard">
+      <br>
+      <label>Base</label>
+      <input type="number" id="br">
+      <label>Altezza</label>
+      <input type="number" id="alr">
+      <button onclick="ar()">
+        Calcola area
+      </button>
+      <button onclick="pr()">
+        Calcola perimetro
+      </button>
+      <label id="ar"></label>
+      <label id="pr"></label>
+    </div><br>
+    <button class="bottone" onclick="Arr()">
+      Area e perimetro rombo
+    </button><br>
+    <div style="display:none;" id="Arrd">
+      <br>
+      <label>Diagonale Maggiore</label>
+      <input type="number" id="brr">
+      <label>Diagonale Minore</label>
+      <input type="number" id="alrr">
+      <button onclick="arr()">
+        Calcola area
+      </button>
+      <button onclick="prr()">
+        Calcola perimetro
+      </button>
+      <label id="arr"></label>
+      <label id="prr"></label>
+    </div><br>
+    <button class="bottone" onclick="Aq()">
+      Area e perimetro quadrato
+    </button><br>
+    <div style="display:none;" id="Aqd">
+      <br>
+      <label>Lato</label>
+      <input type="number" id="lq">
+      <button onclick="aq()">
+        Calcola area
+      </button>
+      <button onclick="pq()">
+        Calcola perimetro
+      </button>
+      <label id="aq"></label>
+      <label id="pq"></label>
+    </div><br>
+    <button class="bottone" onclick="Ac()">
+      Area e perimetro cerchio
+    </button><br>
+    <div style="display:none;" id="Acd">
+      <br>
+      <label>Raggio</label>
+      <input type="number" id="rc">
+      <button onclick="ac()">
+        Calcola area
+      </button>
+      <button onclick="pc()">
+        Calcola perimetro
+      </button>
+      <label id="ac"></label>
+      <label id="pc"></label>
+    </div><br>
+    <button class="bottone" onclick="At()">
+      Area e perimetro trapezio
+    </button><br>
+    <div style="display:none;" id="Atd">
+      <br>
+      <label>Base Maggiore</label>
+      <input type="number" id="bt">
+      <label>Base Minore</label>
+      <input type="number" id="bmt">
+      <label>Altezza</label>
+      <input type="number" id="alt">
+      <button onclick="at()">
+        Calcola area
+      </button>
+      <button onclick="pt()">
+        Calcola perimetro
+      </button>
+      <label id="at"></label>
+      <label id="pt"></label>
+    </div><br>
+    <button class="bottone" onclick="Att()">
+      Area e perimetro triangolo
+    </button>
+    <div style="display:none;" id="Attd">
+      <br>
+      <label>Base</label>
+      <input type="number" id="btt">
+      <label>Altezza</label>
+      <input type="number" id="altt">
+      <button onclick="att()">
+        Calcola area
+      </button>
+      <button onclick="ptt()">
+        Calcola perimetro
+      </button>
+      <label id="att"></label>
+      <label id="ptt"></label>
+    </div><br>
+    
+     <!-- script che importa i nascondi / visualizza e le aree e perimetri -->
+    <script src="./PACCAEP.js">
+    </script>
+  </body>
+</html>

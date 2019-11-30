@@ -2,24 +2,64 @@
 <html>
   <head>
     <title>Test</title>
-    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" href="./test.css" />
+    <!-- Icona di pagina -->
+    <link rel="Shortcut Icon" href="https://cdn.glitch.com/f46cfb06-f906-478d-8672-94bd9a93cac9%2Fkisspng-book-clip-art-open-book-5abd5bed86bf49.6836457215223592775519.png?v=1575113189398">
   </head>
-  <body>
-  <button onclick="finestra()">
-    cliccami
-    </button>
-    <p id="Demo">
-      
-    </p>
-    <script>     var fiat = {type:"cinese", model:"cina2000", owner:"cinlung"}; //Esempio di un oggetto
-                document.getElementById("Demo").innerHTML = "Questo modello è il " + fiat.model + " è del tipo " + fiat.type + " comprata da " + fiat.owner;
-    
+  <body onload="finestra()">
+    <p id="Demo"></p>
+    <label>Base:</label>
+    <input id="base" type="number" required><br>
+    <label>Altezza:</label>
+    <input id="altezza" type="number" required>
+    <script>
+      var fiat = { type: "cinese", model: "cina2000", owner: "cinlung" }; //Esempio di un oggetto
+      document.getElementById("Demo").innerHTML =
+        "Questo modello è il " +
+        fiat.model +
+        " è del tipo " +
+        fiat.type +
+        " comprata da " +
+        fiat.owner;
     </script>
     <script>
-    function finestra(){
-      var ciao = "Se hai trovato questa pagina allora ciao, è una pagina con dei test quindi ignorala"
-      alert(ciao);
-    } 
+      function finestra() {
+        var ciao =
+          "Se hai trovato questa pagina allora ciao, è una pagina con dei test quindi ignorala";
+        alert(ciao);
+      }
     </script>
+    
+    <button onclick="Area()">
+      Cliccami per area
+    </button>
+    <input id="l">
+    <button onclick="lun()">
+      Cliccami per misurare la lunghezza
+    </button>
+    <label id="lun"></label>
+    <script>
+      
+    function Area(b, h) {
+      if (document.getElementById("base").value == "" ) {
+        alert("Base o area non specificata");
+      } else if (document.getElementById("altezza").value == "") {
+        alert("Base o area non specificata");
+      } else {
+      var b = document.getElementById("base").value;
+      var h = document.getElementById("altezza").value;
+      document.getElementById("Area").innerHTML = "Area: " + (b*h);
+      }
+    }
+    function lun(l){
+      var l = new String(document.getElementById("l").value);
+      document.getElementById("lun").innerHTML = "Lunghezza: " + l.length;
+      console.log("Calcolato");
+    }
+    </script>
+      <br>
+      <br>
+      <br>
+    <label id="Area"></label>
   </body>
 </html>

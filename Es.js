@@ -15,10 +15,32 @@ var fiat = {type:"cinese", model:"cina2000", owner:"cinlung", completo: function
            }
             document.getElementById("Demo").innerHTML = "Questo modello è il" + fiat.model; //Metterlo in un paragrafo di id Demo
 
-document.getElementById("Demo").innerHTML = "ciao";                                         //Esempio di come prendere un elemento e cambiargli la scritta
+
+document.getElementById("Demo").innerHTML = "ciao";  //.innerHTML serve per cambiare l'elemento                                       //Esempio di come prendere un elemento e cambiargli la scritta
+this.innerHTML =Date(); //Cambia l'elemento in cui è contenuto es. <button onclick="this.innerHTML = (date);">
 
 
+ //Esempi di cosa si può mettere come interazione
+
+//onchange 	An HTML element has been changed
+//onclick 	The user clicks an HTML element
+//onmouseover 	The user moves the mouse over an HTML element
+//onmouseout 	The user moves the mouse away from an HTML element
+//onkeydown 	The user pushes a keyboard key
+//onload 	The browser has finished loading the page
+
+var ciao = "cina";
+document.getElementById("demo").innerHTML = ciao.length; //Il risultato sarà la lunghezza di ciao
 
 
+//  Code 	Result 	Description      //Nelle stringhe per scrivere i caratteri già utilizzati per aprirle si possono usare questi es. "Io sono \" nicola \""
+//  \' 	   ' 	    Single quote
+//  \" 	   " 	    Double quote
+//  \\ 	   \ 	    Backslash
+//  \n 	   New Line
 
+// cosa utile: For best readability, programmers often like to avoid code lines longer than 80 characters.  If a JavaScript statement does not fit on one line, the best place to break it is after an operator
+document.getElementById("demo").innerHTML = "Hello \
+Dolly!"                                                 //si può fare anche così
+var ciao = new String("Ciao"); //Le stringhe possono anche essere oggetti ma è meglio non farlo perchè rallenta la velocità di esecuzione
 

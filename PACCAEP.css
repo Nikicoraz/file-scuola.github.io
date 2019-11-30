@@ -1,0 +1,16 @@
+.bottone {
+  width: 200px;
+  height:45px;
+  background-color: #09db41;
+  box-shadow: rgba(0, 0, 0, 0.55) -12px 19px 15px -9px inset;
+  box-shadow: rgba(0, 0, 0, 0.18) 3px 7px 2px 1px;
+}
+.bottone:hover{
+  background-color: #ababab;
+}
+body{
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/61p7%2BwLw2CL._SX425_.jpg);
+  font-family: 'Permanent Marker';
+  font-size: 24px;
+  color: red;
+}
