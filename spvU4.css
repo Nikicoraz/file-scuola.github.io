@@ -1,6 +1,6 @@
 .contenitore{
   display: table;
-  width:25%;
+  width:27%;
   margin: 0 auto;
 }
 #Didattica{
@@ -38,11 +38,8 @@ body {
    color: white;
    text-transform: uppercase;
    position:relative;
-  left:3%;
+   left:3%;
 }
-#U4{
-   color: white;
-   text-transform: uppercase;
-   position:relative;
-  left:3%;
+#sU3{
+  display: table-cell;
 }

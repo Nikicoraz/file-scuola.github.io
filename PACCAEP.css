@@ -4,6 +4,7 @@
   background-color: #09db41;
   box-shadow: rgba(0, 0, 0, 0.55) -12px 19px 15px -9px inset;
   box-shadow: rgba(0, 0, 0, 0.18) 3px 7px 2px 1px;
+  font-family: 'Montserrat', sans-serif;
 }
 .bottone:hover{
   background-color: #ababab;
