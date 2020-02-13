@@ -15,3 +15,11 @@ body{
   font-size: 24px;
   color: red;
 }
+.nasc{
+  visibility: hidden;
+}
+.bottoni{
+  width: 72px;
+  height: 40px;
+  background-color: red;
+}

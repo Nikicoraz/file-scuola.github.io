@@ -193,3 +193,100 @@
       alert("⚠️Il perimetro funziona solo per i triangoli equilateri⚠️")
       }
     }
+   //colore bottoni
+
+function cambiarr(){
+  var x = document.getElementById("br").value;
+  var y = document.getElementById("alr").value;
+  if (x.length == 0 || y.length == 0){
+    console.log("ciao");
+    document.getElementById("bar").style.backgroundColor = "Red";
+    document.getElementById("bpr").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("bar").style.backgroundColor = "#00ff00";
+    document.getElementById("bpr").style.backgroundColor = "#00ff00";
+  }
+  
+}
+
+function cambiarrr(){
+  var x = document.getElementById("brr").value;
+  var y = document.getElementById("alrr").value;
+  if (x.length == 0 || y.length == 0){
+    console.log("ciao");
+    document.getElementById("barr").style.backgroundColor = "Red";
+    document.getElementById("bprr").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("barr").style.backgroundColor = "#00ff00";
+    document.getElementById("bprr").style.backgroundColor = "#00ff00";
+  }
+  
+}
+
+function cambiaq(){
+  var x = document.getElementById("lq").value;
+  if (x.length == 0){
+    console.log("ciao");
+    document.getElementById("baq").style.backgroundColor = "Red";
+    document.getElementById("bpq").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("baq").style.backgroundColor = "#00ff00";
+    document.getElementById("bpq").style.backgroundColor = "#00ff00";
+  }
+  
+}
+
+function cambiac(){
+  var x = document.getElementById("rc").value;
+  if (x.length == 0){
+    console.log("ciao");
+    document.getElementById("bac").style.backgroundColor = "Red";
+    document.getElementById("bpc").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("bac").style.backgroundColor = "#00ff00";
+    document.getElementById("bpc").style.backgroundColor = "#00ff00";
+  }
+  
+}
+
+function cambiat(){
+  var x = document.getElementById("bmt").value;
+  var z = document.getElementById("bt").value;
+  var y = document.getElementById("alt").value;
+  if (x.length == 0 || y.length == 0 || z.length == 0){
+    console.log("ciao");
+    document.getElementById("bat").style.backgroundColor = "Red";
+    document.getElementById("bpt").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("bat").style.backgroundColor = "#00ff00";
+    document.getElementById("bpt").style.backgroundColor = "#00ff00";
+  }
+  
+}
+
+function cambiatt(){
+  var x = document.getElementById("btt").value;
+  var y = document.getElementById("altt").value;
+  if (x.length == 0 || y.length == 0){
+    console.log("ciao");
+    document.getElementById("batt").style.backgroundColor = "Red";
+    document.getElementById("bptt").style.backgroundColor = "Red";
+    console.log(x.length)
+  } else{
+    console.log("no")
+    document.getElementById("batt").style.backgroundColor = "#00ff00";
+    document.getElementById("bptt").style.backgroundColor = "#00ff00";
+  }
+  
+}
+function sculacc()
