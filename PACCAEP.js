@@ -289,4 +289,3 @@ function cambiatt(){
   }
   
 }
-function sculacc()
