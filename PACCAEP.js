@@ -73,6 +73,7 @@
       var h = document.getElementById("alrr").value;
       document.getElementById("arr").innerHTML = "Area: " + [(b*h)/2];
       }
+        swoparoo();
     }
       function aq(l) {
       if (document.getElementById("lq").value == "" ) {
@@ -145,6 +146,7 @@
       var l = Math.sqrt(Number(Math.pow(b/2, 2)) + Number(Math.pow(h/2, 2)));
       document.getElementById("prr").innerHTML = "Perimetro: " + l*4;
       }
+        swoparoo();
     }
       function pq(l) {
       if (document.getElementById("lq").value == "" ) {
@@ -288,4 +290,16 @@ function cambiatt(){
     document.getElementById("bptt").style.backgroundColor = "#00ff00";
   }
   
+}
+
+//Coso rombo
+
+function swoparoo(){
+  console.log("test");
+   var x = document.getElementById("brr").value;
+   var y = document.getElementById("alrr").value;
+    if (y>x){
+      document.getElementById("brr").value = y
+      document.getElementById("alrr").value = x
+    }
 }
